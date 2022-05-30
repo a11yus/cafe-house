@@ -1,0 +1,43 @@
+
+#bucket
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+#bucket div 
+{
+    background-color: grey;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 10px;
+}
+
+#bucket img
+{
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+#bucket button
+{
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(21, 20, 20);
+    border: none;
+}
+
+#confirm_checkout
+{
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#confirm_checkout a
+{
+    color: black;
+    border: none;
+    text-decoration: none;
+}
